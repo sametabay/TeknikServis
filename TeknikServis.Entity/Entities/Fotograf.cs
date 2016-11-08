@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TeknikServis.Entity.Entities;
 
 namespace TeknikServis.Entity.Entity
 {
@@ -16,7 +17,12 @@ namespace TeknikServis.Entity.Entity
         [Required]
         public string Yol { get; set; }
         public int ArizaID { get; set; }
+        public int MarkaID { get; set; }
+        [ForeignKey("MarkaID")]
+        public virtual Marka Markasi { get; set; }
         [ForeignKey("ArizaID")]
         public virtual Ariza Arizasi { get; set; }
+
+        
     }
 }

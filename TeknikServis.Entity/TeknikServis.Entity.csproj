@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="Entities\Ariza.cs" />
     <Compile Include="Entities\Fotograf.cs" />
+    <Compile Include="Entities\Marka.cs" />
     <Compile Include="IdentityModels\ApplicationRole.cs" />
     <Compile Include="IdentityModels\ApplicationUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
