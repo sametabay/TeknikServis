@@ -94,7 +94,44 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="accordion-style.html" />
+    <Content Include="apple-touch-icon-114x.jpg" />
+    <Content Include="apple-touch-icon-144x.jpg" />
+    <Content Include="apple-touch-icon-57x.jpg" />
+    <Content Include="apple-touch-icon-71x.jpg" />
+    <Content Include="blog-big-thumbnails.html" />
+    <Content Include="blog-detail.html" />
+    <Content Include="blog-elegant.html" />
+    <Content Include="blog-libra-big.html" />
+    <Content Include="blog-libra-small.html" />
+    <Content Include="blog-modules.html" />
+    <Content Include="blog-pinterest.html" />
+    <Content Include="blog-small-thumbnails.html" />
+    <Content Include="Changelog.txt" />
+    <Content Include="circle-style.html" />
+    <Content Include="contact-error.html" />
+    <Content Include="contact-success.html" />
+    <Content Include="elastic.html" />
+    <Content Include="error-404.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="flash.html" />
+    <Content Include="flexslider-classic.html" />
+    <Content Include="flexslider-elegant.html" />
+    <Content Include="get-in-touch-2.html" />
+    <Content Include="get-in-touch.html" />
+    <Content Include="home-ii.html" />
+    <Content Include="home-iii.html" />
+    <Content Include="home-iv.html" />
+    <Content Include="home-ix.html" />
+    <Content Include="home-v.html" />
+    <Content Include="home-vi.html" />
+    <Content Include="home-vii.html" />
+    <Content Include="home-viii.html" />
+    <Content Include="home-x.html" />
+    <Content Include="index.html" />
+    <Content Include="libra-features.html" />
     <Content Include="packages.config" />
+    <Content Include="sendmail.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -103,12 +140,57 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pages-faq.html" />
+    <Content Include="polaroid.html" />
+    <Content Include="portfolio-2-columns.html" />
+    <Content Include="portfolio-3-columns.html" />
+    <Content Include="portfolio-4-columns.html" />
+    <Content Include="portfolio-and-video-modules.html" />
+    <Content Include="portfolio-big-image.html" />
+    <Content Include="portfolio-detail-2.html" />
+    <Content Include="portfolio-detail.html" />
+    <Content Include="portfolio-filterable.html" />
+    <Content Include="portfolio-libra.html" />
+    <Content Include="portfolio-pinterest.html" />
+    <Content Include="portfolio-project-detail-1.html" />
+    <Content Include="portfolio-project-detail-2.html" />
+    <Content Include="portfolio-slide-detail.html" />
+    <Content Include="portfolio-slider.html" />
+    <Content Include="revolution-slider.html" />
+    <Content Include="rotating.html" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="service-detail.html" />
+    <Content Include="services-detail.html" />
+    <Content Include="services-module.html" />
+    <Content Include="shortcodes-alert-box-buttons.html" />
+    <Content Include="shortcodes-charts.html" />
+    <Content Include="shortcodes-icon-section.html" />
+    <Content Include="shortcodes-media-widgets.html" />
+    <Content Include="shortcodes-mix-various.html" />
+    <Content Include="shortcodes-table-box-prices.html" />
+    <Content Include="shortcodes-typography.html" />
+    <Content Include="struttura.html" />
+    <Content Include="style.css" />
+    <Content Include="testimonial-detail.html" />
+    <Content Include="testimonials.html" />
+    <Content Include="thumbnails.html" />
+    <Content Include="u-square-style.html" />
+    <Content Include="usquare.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="blog\" />
+    <Folder Include="css\" />
+    <Folder Include="documentation\" />
+    <Folder Include="fonts\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+    <Folder Include="portfolios\" />
+    <Folder Include="sliders\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

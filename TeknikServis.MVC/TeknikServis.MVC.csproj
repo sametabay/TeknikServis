@@ -165,13 +165,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assest\scripts\ai.0.22.19-build00125.js" />
+    <Content Include="assest\scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="assest\style.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <None Include="scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="scripts\jquery-1.10.2.js" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,6 +195,13 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -189,8 +211,25 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="assest\blog\" />
+    <Folder Include="assest\css\" />
+    <Folder Include="assest\documentation\" />
+    <Folder Include="assest\fonts\" />
+    <Folder Include="assest\images\" />
+    <Folder Include="assest\js\" />
+    <Folder Include="assest\portfolios\" />
+    <Folder Include="assest\sliders\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeknikServis.BLL\TeknikServis.BLL.csproj">
+      <Project>{fd6912d6-9729-49dd-9ed7-a0a2030cb5ec}</Project>
+      <Name>TeknikServis.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeknikServis.Entity\TeknikServis.Entity.csproj">
+      <Project>{c2e5b30d-4980-4330-a592-becec951a076}</Project>
+      <Name>TeknikServis.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

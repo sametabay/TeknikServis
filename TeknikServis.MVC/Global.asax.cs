@@ -13,6 +13,8 @@ namespace TeknikServis.MVC
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+
         }
     }
 }

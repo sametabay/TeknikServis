@@ -91,6 +91,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeknikServis.DAL\TeknikServis.DAL.csproj">
+      <Project>{3bef263a-1145-4b19-8161-c0e8c022d12f}</Project>
+      <Name>TeknikServis.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeknikServis.Entity\TeknikServis.Entity.csproj">
+      <Project>{c2e5b30d-4980-4330-a592-becec951a076}</Project>
+      <Name>TeknikServis.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
