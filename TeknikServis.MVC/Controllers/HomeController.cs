@@ -13,5 +13,9 @@ namespace TeknikServis.MVC.Controllers
         {
             return View();
         }
+        public PartialViewResult MenuPartial()
+        {
+            return PartialView("_menuPartial");
+        }
     }
 }
