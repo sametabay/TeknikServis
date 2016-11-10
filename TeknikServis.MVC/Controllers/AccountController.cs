@@ -65,7 +65,7 @@ namespace TeknikServis.MVC.Controllers
                     userManager.AddToRole(user.Id, "User");
                 }
 
-                return RedirectToAction("Login", "Account");
+                return RedirectToAction("Index", "Home");
             }
             else
             {
